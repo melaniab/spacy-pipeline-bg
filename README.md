@@ -18,12 +18,15 @@ The project consists of the following folders:
 - `configs/` - configuration files,
 - `corpus/` - train/dev/test dataset in .spacy format,
 - `language_components/` - files for the custom language components (tokenizer, sentencizer, and connected files), 
-- `metrics/` - evaluation metrics on the test set (with timestamp),
-- `models/` - trained pipeline models, 
-- `packages/` - packaged pipeline models,
+- `models_v3.3/` - trained pipeline models in spaCy 3.3, 
+- `models_v3.4/` - trained pipeline models in spaCy 3.4,
 - `tests/` - unittests for the custom components, 
-- `vectors/` - pretrained word embeddings (fasttext), 
+- `vectors/` - pretrained word embeddings (fastText), 
 - `visualiations/` - dependency parsing visualizations on the test set.
+
+## Pretrained vectors
+
+Pretrained fastText vectors for Bulgarian language can be downloaded from here: https://fasttext.cc/docs/en/crawl-vectors.html and put tinto the `vectors` folder.
 
 
 ## Tokenization 

@@ -5,7 +5,7 @@ from language_components.token_exceptions import ABBR_DOT_END_EXC
 
 def is_invalid_ending(token_text):
     """
-    Marks innitials (such as "A.") as invalid end of sentence. 
+    Marks initials (such as "A.") as invalid end of sentence. 
     """
     if len(token_text) == 1 and token_text[0].isupper() and token_text not in ['!', '.', '?']: 
         return True
