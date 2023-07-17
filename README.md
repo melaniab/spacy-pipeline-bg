@@ -56,3 +56,11 @@ They are grouped in the following variables:
 
 ### Stopwords 
 In the file `language_components/stopwords.py.` Stopwords are taken from here: http://bultreebank.org/bg/resources/. 
+
+# Reference 
+
+@article{berbatova2023improved,
+  title={An Improved Bulgarian Natural Language Processing Pipeline},
+  author={Berbatova, Melania and Ivanov, Filip},
+  year={2023}
+}
