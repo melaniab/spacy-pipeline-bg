@@ -6,7 +6,7 @@ proceedings of [International Conference on Information Systems, Embedded System
 
 # Usage 
 
-In order to use the pipeline, it should be first installed as a local python package:
+In order to use the pipeline, it should be first installed as a local Python package:
 
 ```
 python -m spacy package ./models_v3.3/model-best/ packages --name bg --version 1.0.0 --code language_components/custom_bg_lang.py
@@ -15,8 +15,8 @@ pip install packages/bg_bg-1.0.0/dist/bg_bg-1.0.0.tar.gz
 ```
 You can check if the pipeline was correctly installed with the `pip list` command. 
  
-After a succesfull instalation, the pipeline can be opened in a python file as a spaCy language model. The tokenizer needs to be added manually. 
-```
+After a successful installation, the pipeline can be opened in a Python file as a spaCy language model. The tokenizer needs to be added manually. 
+```python
 import spacy
 nlp = spacy.load("bg_bg")
 from language_components.custom_tokenizer import *
@@ -24,7 +24,7 @@ nlp.tokenizer = custom_tokenizer(nlp)
 ```
 
 
-For more details how to use the pipeline, please refer to [the official spaCy documentation](https://spacy.io/usage/models). 
+For more details on how to use the pipeline, please take a look at the [Model loading and usage notebook](https://github.com/melaniab/spacy-pipeline-bg/blob/master/Model_loading_and_usage.ipynb) and [the official spaCy documentation](https://spacy.io/usage/models). 
 
 
 # Project structure and details 
@@ -54,7 +54,7 @@ The project consists of the following folders:
 
 ## Pretrained vectors
 
-Pretrained fastText vectors for Bulgarian language can be downloaded from here: https://fasttext.cc/docs/en/crawl-vectors.html and put tinto the `vectors` folder.
+Pretrained fastText vectors for Bulgarian language can be downloaded from here: https://fasttext.cc/docs/en/crawl-vectors.html and put into the `vectors` folder.
 
 
 ## Tokenization 
@@ -83,7 +83,7 @@ They are grouped in the following variables:
 - `ABBR_UPPERCASE_EXC` - Uppercase abbreviations 
 
 ### Stopwords 
-In the file `language_components/stopwords.py.` Stopwords are taken from here: http://bultreebank.org/bg/resources/. 
+In the file `language_components/stopwords.py.` Stopwords are taken from [here](http://bultreebank.org/bg/resources/). 
 
 # Reference 
 
@@ -96,4 +96,5 @@ If you use the pipeline in your academic project, please cite as:
   year={2023}
 }
 ```
-
+MIT License       
+Copyright (c) 2023 Melania Berbatova
