@@ -5,8 +5,9 @@ proceedings of [International Conference on Information Systems, Embedded System
 
 
 # Usage 
+First, the pretrained models need to be downloaded into the repo folder from [here](https://drive.google.com/file/d/1xX3ZIX7-_T-_xV2gsZwotOAfZBlWLZ3L/view?usp=sharing). 
 
-In order to use the pipeline, it should be first installed as a local Python package:
+In order to use the pipeline, it should be installed as a local Python package:
 
 ```
 python -m spacy package ./models_v3.3/model-best/ packages --name bg --version 1.0.0 --code language_components/custom_bg_lang.py
