@@ -5,7 +5,7 @@ proceedings of [International Conference on Information Systems, Embedded System
 
 
 # Usage 
-First, the pretrained models need to be downloaded into the repo folder from [Google Drive](https://drive.google.com/file/d/1xX3ZIX7-_T-_xV2gsZwotOAfZBlWLZ3L/view?usp=sharing). 
+First, the pretrained models need to be downloaded into the repo folder from [HuggingFace](https://huggingface.co/melaniab/spacy-pipeline-bg/tree/main). 
 
 In order to use the pipeline, it should be installed as a local Python package:
 
@@ -92,10 +92,14 @@ Please refer to [the paper](https://www.researchgate.net/publication/371081880_A
 If you use the pipeline in your academic project, please cite as: 
 
 ```bibtex
-@article{berbatova2023improved,
-  title={An Improved Bulgarian Natural Language Processing Pipeline},
-  author={Berbatova, Melania and Ivanov, Filip},
-  year={2023}
+@article
+{berbatova2023improved,
+title={An improved Bulgarian natural language processing pipelihttps://github.com/melaniab/spacy-pipeline-bgne},
+author={Berbatova, Melania and Ivanov, Filip},
+journal={Annual of Sofia University St. Kliment Ohridski. Faculty of Mathematics and Informatics},
+volume={110},
+pages={37--50},
+year={2023}
 }
 ```
 MIT License       
