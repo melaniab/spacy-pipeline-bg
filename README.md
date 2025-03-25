@@ -60,7 +60,7 @@ After downloading the pretrained word vectors and the pretrained models, the pro
 Tokenization is the first step of the pipeline. The Bulgarian tokenizer consists of custom rules, exceptions and stopwords. It can be used separately from the rest of the pipeline. 
 
 ### Rules 
-The rules for the rule-based tokenizer are in the file language_components/custom_tokenizer.py. They are defined by the following regular exceptions: 
+The rules for the rule-based tokenizer are in the file language_components/custom_tokenizer.py. They are defined by the following regular expressions: 
 
 ```python
 prefix_re = re.compile(r'''^[\[\("'“„]''')
