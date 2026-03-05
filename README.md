@@ -94,7 +94,7 @@ If you use the pipeline in your academic project, please cite as:
 ```bibtex
 @article
 {berbatova2023improved,
-title={An improved Bulgarian natural language processing pipelihttps://github.com/melaniab/spacy-pipeline-bgne},
+title={An improved Bulgarian natural language processing pipeline},
 author={Berbatova, Melania and Ivanov, Filip},
 journal={Annual of Sofia University St. Kliment Ohridski. Faculty of Mathematics and Informatics},
 volume={110},
